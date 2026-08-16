@@ -1,0 +1,27 @@
+# Task List: FinWise Full Integration & Redesign
+
+- [x] Task 1: Set up backend folder structure and initialize `server/package.json`
+- [x] Task 2: Create the hybrid database wrapper (`server/db.js`) and JSON file-based database (`server/utils/fileDb.js`)
+- [x] Task 3: Define schema-like models and write authentication token middleware (`server/middleware/auth.js`)
+- [x] Task 4: Build user registration and login auth routes (`server/routes/auth.js`)
+- [x] Task 5: Build transaction routes for income and expenses CRUD (`server/routes/transactions.js`)
+- [x] Task 6: Build budget management and AI-recommender routes (`server/routes/budgets.js`)
+- [x] Task 7: Build goals management and contributions routes (`server/routes/goals.js`)
+- [x] Task 8: Build AI assistant, auto-categorizer, predictions, and anomalies routes (`server/routes/ai.js` and `server/utils/aiHelper.js`)
+- [x] Task 9: Build alerts list and dismissal routes (`server/routes/alerts.js`)
+- [x] Task 10: Configure environment settings (`server/.env`) and bootstrap server (`server/server.js`)
+- [x] Task 11: Update Frontend Core (`src/App.jsx`) to fetch data from API and handle authentication state
+- [x] Task 12: Wire frontend page components (`Login.jsx`, `Register.jsx`, `Expenses.jsx`, `Income.jsx`, `Budget.jsx`, `Goals.jsx`, `AIInsights.jsx`, `Settings.jsx`) to API calls
+- [x] Task 13: Compile project, execute tests, verify security data isolation, and review mobile views
+- [x] Task 14: Implement 'Quick GST' calculator button and modal in `src/pages/Dashboard.jsx`
+- [x] Task 15: Run build verification and visually test the GST calculator
+- [x] Task 16: Install `pdf-parse` in the `server` directory
+- [x] Task 17: Build PDF text extraction and Gemini JSON parsing endpoint in `server/routes/ai.js`
+- [x] Task 18: Build Dashboard Quick Actions buttons and uploader review modals in `src/pages/Dashboard.jsx`
+- [x] Task 19: Build AI Smart Import paste dialog in `src/pages/Dashboard.jsx`
+- [x] Task 20: Test upload process, OCR failures, duplicates warning, imports, and dashboard updates
+- [x] Task 21: Redesign core index.css style properties for light-theme cards and navy sidebars
+- [x] Task 22: Redesign Sidebar navigation buttons, brand logos, subtitles, and Premium upgrade cards
+- [x] Task 23: Redesign Header personalized greetings, dynamic months, search actions, and PRO badges
+- [x] Task 24: Build dedicated full-width pages for Analytics charts, AI Smart Import dropzones, and Alerts notification lists
+- [x] Redesign Dashboard summary metrics cards, budget circular bars, recent tables, and goal progress bars
