@@ -14,7 +14,7 @@ import Analytics from './pages/Analytics';
 import AISmartImport from './pages/AISmartImport';
 import Alerts from './pages/Alerts';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = '/api';
 
 function App() {
   const [token, setToken] = useState(() => localStorage.getItem('finwise_token') || null);
